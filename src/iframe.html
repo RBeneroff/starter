@@ -1,55 +1,47 @@
 <link rel="stylesheet" type='text/css' href="css/style.css">
 
-<br><br><br><br><br><br><br><br><br>
+<html class='iframe-margin' style="background:rgba(0,0,0,0.6)">
 
-<html style="background:rgba(0,0,0,0.6)">
-<!-- Edit this file to contain the lightbox -->
-
-<div class='lightbox'>
-  <a href="closeIframe();">X</a>
-  <div class='container'>
-    <h2 id='heading'>Book Direct. Get Rewarded.</h2>
-    <p id='rewards'>Get 3 Free Rewards Like:</p>
-
-    <div class='flex'>
-      <div class='img1'>
-        <img src="/css/starbucks_logo.png"/>
+  <div class='lightbox'>
+    <a href="closeIframe();">X</a>
+    <div class='container'>
+      <h2 id='heading'>Book Direct. Get Rewarded.</h2>
+      <p id='rewards'>Get 3 Free Rewards Like:</p>
+      <div class='flex'>
+        <div class='img1'>
+          <img src="/css/starbucks_logo.png"/>
+        </div>
+        <div class='img2'>
+          <img src="/css/united-logo.png"/>
+        </div>
+        <div class='img3'>
+          <img src="/css/gogo-logo.png"/>
+        </div>
       </div>
-      <div class='img2'>
-        <img src="/css/united-logo.png"/>
+      <div class='flex'>
+        <div class='img1'>
+          <p class='merchant-name'>Starbucks</p>
+          <p class='merchant-reward'>Free Coffee</p>
+        </div>
+        <div class='img2'>
+          <p class='merchant-name'>United Airlines</p>
+          <p class='merchant-reward'>Free $25 Credit</p>
+        </div>
+        <div class='img3'>
+          <p class='merchant-name'>Go-Go Wi-Fi</p>
+          <p class='merchant-reward'>Free Wi-Fi</p>
+        </div>
+      </div>
+    <br>
+      <button class='button' type="submit" name="button">Book Now + Get Free Rewards &#x279E;</button>
+      <p id='rate'>Best Rate Guaranteed</p>
     </div>
-      <div class='img3'>
-        <img src="/css/gogo-logo.png"/>
-      </div>
-    </div>
-
-    <div class='flex'>
-      <div class='img1'>
-        <p class='merchant-name'>Starbucks</p>
-        <p class='merchant-reward'>Free Coffee</p>
-      </div>
-      <div class='img2'>
-        <p class='merchant-name'>United Airlines</p>
-        <p class='merchant-reward'>Free $25 Credit</p>
-      </div>
-      <div class='img3'>
-        <p class='merchant-name'>Go-Go Wi-Fi</p>
-        <p class='merchant-reward'>Free Wi-Fi</p>
-      </div>
-    </div>
-
-  <br>
-
-    <button class='button' type="submit" name="button">Book Now + Get Free Rewards &#x279E;</button>
-    <p id='rate'>Best Rate Guaranteed</p>
-
   </div>
-</div>
 
 </html>
 
 <script type="text/javascript">
 function closeIframe() {
-    document.getElementById("lightbox").style.display="none";
+  document.getElementById("lightbox").style.display="none";
 }
 </script>
