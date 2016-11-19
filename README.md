@@ -1,6 +1,8 @@
 ## Stay Wanderful example project
 
-A simple starter project 
+A simple starter project
+
+![iFrame recreation](http://i.imgur.com/pvOI4A6.png)
 
 ### Usage
 - Fork this repository
