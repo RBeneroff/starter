@@ -1,0 +1,43 @@
+.lightbox {
+  background: white;
+  width: 550px;
+  height: 450px;
+  margin: auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img1,
+.img2,
+.img3 {
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+#heading,
+#rewards {
+  text-transform: uppercase;
+}
+
+.button {
+  background: #4b0532;
+  color: white;
+  border-width: 0;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 30px 10px;
+}
+
+#rate {
+  color: #7e7e7e;
+}
