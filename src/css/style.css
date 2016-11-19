@@ -1,10 +1,15 @@
 .lightbox {
   background: white;
-  width: 550px;
-  height: 450px;
+  width: 450px;
+  height: 375px;
   margin: auto;
   text-align: center;
   font-family: Arial;
+}
+
+.container {
+  /*vertical-align: middle;*/
+  padding: 2vh 0;
 }
 
 .flex {
@@ -17,15 +22,30 @@
 .img1,
 .img2,
 .img3 {
-  /*align-items: center;*/
-  /*justify-content: center;*/
   flex-flow: row;
   justify-content: space-around;
 }
 
-#heading,
-#rewards {
+#heading {
   text-transform: uppercase;
+  color: #4b0532;
+  font-weight: lighter;
+}
+
+#rewards {
+  margin-top: -2vh;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.merchant-name {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.merchant-reward {
+  margin-top: -1vh;
+  font-size: 12px;
 }
 
 .button {
@@ -36,8 +56,11 @@
   text-align: center;
   cursor: pointer;
   padding: 10px 30px 10px;
+  font-size: 14px;
 }
 
 #rate {
+  font-weight: bolder;
+  font-size: 14px;
   color: #7e7e7e;
 }
