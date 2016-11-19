@@ -12,6 +12,14 @@
   padding: 2vh 0;
 }
 
+a {
+  text-decoration: none;
+  color: #7e7e7e;
+  font-weight: bolder;
+  float: right;
+  padding: 1vh;
+}
+
 .flex {
   display: flex;
   flex-flow: row;

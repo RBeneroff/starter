@@ -1,9 +1,12 @@
 <link rel="stylesheet" type='text/css' href="css/style.css">
 
+<br><br><br><br><br><br><br><br><br>
+
 <html style="background:rgba(0,0,0,0.6)">
 <!-- Edit this file to contain the lightbox -->
 
 <div class='lightbox'>
+  <a href="closeIframe();">X</a>
   <div class='container'>
     <h2 id='heading'>Book Direct. Get Rewarded.</h2>
     <p id='rewards'>Get 3 Free Rewards Like:</p>
@@ -43,7 +46,10 @@
   </div>
 </div>
 
-
-
-
 </html>
+
+<script type="text/javascript">
+function closeIframe() {
+    document.getElementById("lightbox").style.display="none";
+}
+</script>
